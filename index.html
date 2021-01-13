@@ -30,51 +30,47 @@
             <a href="#Random"><h3>Random Stuff</h3></a>
         </nav>
 
-        <main>
-            <picture>
-                <img src="https://www.epicwingsnthings.com/wp-content/uploads/2016/08/Wings-n-Things-015.jpg" alt="wings" width="500" height="500">
-            </picture>
-            <iframe width="500" height="500" src="https://www.youtube.com/embed/4SDN8TYaCIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            <section id="About">
-                <h4>About me</h4>
-                <div id="About_text_school">
-                <p>Hello! My name is Liam O'Brien and I'm a 3rd yr CompSci student at UCSD. I have made a lot of progress towards
-                    completing all of my major requirement classes for grading. <br>
-                    My completed courses include: <br>
-                    <ul>
-                        <li>CSE 11</li>
-                        <li>CSE 12</li>
-                        <li>CSE 15L</li>
-                        <li>CSE 20</li>
-                        <li>CSE 21</li>
-                        <li>CSE 30</li>
-                        <li>CSE 100</li>
-                        <li>CSE 101</li>
-                        <li>CSE 103</li>
-                        <li>CSE 105</li>
-                    </ul>
-                    I hope to graduate from <span id="School">UCSD</span> within 4 years. If I continue to take classes at this rate, I <i>should</i> be able
-                    to also achieve a minor in CogSci. 
-                    <br>
-                    Random line of code to show my mastery of coding...
-                    <br>
-                    <code>
-                        public static void main(String args[]) {
-                            println("Hello World");
-                        }
-                    </code>
+        <picture>
+            <img src="https://www.epicwingsnthings.com/wp-content/uploads/2016/08/Wings-n-Things-015.jpg" alt="wings" width="500" height="500">
+        </picture>
+        <iframe width="500" height="500" src="https://www.youtube.com/embed/4SDN8TYaCIY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <section id="About">
+            <h4>About me</h4>
+            <div id="About_text_school">
+            <p>Hello! My name is Liam O'Brien and I'm a 3rd yr CompSci student at UCSD. I have made a lot of progress towards
+                completing all of my major requirement classes for grading. </p>
+                <p>My completed courses include:</p> 
+                <ul>
+                    <li>CSE 11</li>
+                    <li>CSE 12</li>
+                    <li>CSE 15L</li>
+                    <li>CSE 20</li>
+                    <li>CSE 21</li>
+                    <li>CSE 30</li>
+                    <li>CSE 100</li>
+                    <li>CSE 101</li>
+                    <li>CSE 103</li>
+                    <li>CSE 105</li>
+                </ul>
+                <p>I hope to graduate from <span id="School">UCSD</span> within 4 years. If I continue to take classes at this rate, I <i>should</i> be able
+                to also achieve a minor in CogSci. </p>
+                
+                <p>Random line of code to show my mastery of coding...</p>
+                <code>
+                    public static void main(String args[]) {
+                        println("Hello World");
+                    }
+                </code>
+            </div>
+            <div id="About_text_food">
+                <p>
+                Enough about my school life. One of my <strong>favorite</strong> things to eat is Macaroni and Cheese. Because of this, I will teach
+                you how to prepare it.
                 </p>
-                </div>
-                <div id="About_text_food">
-                    <p>
-                    Enough about my school life. One of my <strong>favorite</strong> things to eat is Macaroni and Cheese. Because of this, I will teach
-                    you how to prepare it.
-                    </p>
-                    <hr>
-                </div>
-            </section>
-        </main>
+                <hr>
+            </div>
+        </section>
         <aside>
             <section id="Recipe">
                 <h4>My Macaroni and Cheese Recipe</h4>
@@ -138,7 +134,7 @@
             
             <section id="Survey">
                 <h4>Survey for Self-Improvement</h4>
-                <form action="">
+                <form>
                     <div class="email_input">
                         <label for="email">Enter your email: </label>
                         <input type="text" name="email" id="email" required><br>
@@ -146,7 +142,7 @@
                     <br>
                     <label for="rating">Rate me from 1-10:</label>
                     <select name="rating_input" id="rating">
-                        <optgroup id="numbers">
+                        <optgroup label="numbers">
 
                             <option value="">--Click for dropdown--</option>
                             <option value="1">1</option>
@@ -205,7 +201,7 @@
                     <source src="this_guy_stinks.mp4" type="video/mp4">
                 </video>
 
-                <audio controls src="this_guy_stinks - Copy.mp3"></audio>
+                <audio controls src="this_guy_stinks-Copy.mp3"></audio>
 
                 <p>vv canvas tag vv</p>
                 <canvas width="250" height="250">
@@ -267,7 +263,7 @@
                 <label for="today"> I finished this on:</label>
                 <input type="date" id="today" name="today" value="2021-01-12" min="2018-01-01" max="2021-12-31">
                 <br>
-                <label for="pic">Upload a pic:</label>
+                <label for="cool_pic">Upload a pic:</label>
                 <input type="file" id="cool_pic" name="cool_pic" accept="image/png, image/jpeg">
                 <br>
                 <label for="pets">How many pets do you have?</label>
@@ -279,7 +275,7 @@
                 <input type="submit" value="Button using input tag">
                 <br>
                 <label for="timezone">What time is it for you?</label>
-                <input type="time" id="timezone" name="timezone" min="0:00" max="23:59">
+                <input type="time" id="timezone" name="timezone" min="00:00" max="23:59">
                 <br>
                 <label for="passcode">Enter your password:</label>
                 <input type="password" id="passcode" name="password" minlength="8">
