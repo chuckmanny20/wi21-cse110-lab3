@@ -1,1 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <title>Liam O'Brien's User Site</title>
+
+        <!-- Add icon to tab -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+
+        <!-- Pseudo-link -->
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Liam O'Brien</h1>
+            <h2>Third Year Computer Science Major</h2>
+        </header>
+
+        <nav>
+            <a href="#About"><h3>About me</h3></a>
+            <a href="#Recipe"><h3>My Recipe</h3></a>
+            <a href="#Experience"><h3>My Experience</h3></a>
+            <a href="#Survey"><h3>Survey</h3></a>
+            <a href="#Random"><h3>Random Stuff</h3></a>
+        </nav>
+
+        <main>
+            <picture>
+                <img src="https://www.epicwingsnthings.com/wp-content/uploads/2016/08/Wings-n-Things-015.jpg" alt="wings" width="500" height="500">
+            </picture>
+            <iframe width="500" height="500" src="https://www.youtube.com/embed/4SDN8TYaCIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <section id="About">
+                <h4>About me</h4>
+                <div id="About_text_school">
+                <p>Hello! My name is Liam O'Brien and I'm a 3rd yr CompSci student at UCSD. I have made a lot of progress towards
+                    completing all of my major requirement classes for grading. <br>
+                    My completed courses include: <br>
+                    <ul>
+                        <li>CSE 11</li>
+                        <li>CSE 12</li>
+                        <li>CSE 15L</li>
+                        <li>CSE 20</li>
+                        <li>CSE 21</li>
+                        <li>CSE 30</li>
+                        <li>CSE 100</li>
+                        <li>CSE 101</li>
+                        <li>CSE 103</li>
+                        <li>CSE 105</li>
+                    </ul>
+                    I hope to graduate from <span id="School">UCSD</span> within 4 years. If I continue to take classes at this rate, I <i>should</i> be able
+                    to also achieve a minor in CogSci. 
+                    <br>
+                    Random line of code to show my mastery of coding...
+                    <br>
+                    <code>
+                        public static void main(String args[]) {
+                            println("Hello World");
+                        }
+                    </code>
+                </p>
+                </div>
+                <div id="About_text_food">
+                    <p>
+                    Enough about my school life. One of my <strong>favorite</strong> things to eat is Macaroni and Cheese. Because of this, I will teach
+                    you how to prepare it.
+                    </p>
+                    <hr>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <section id="Recipe">
+                <h4>My Macaroni and Cheese Recipe</h4>
+                    <div>
+                        <ol>
+                            <li>Take out pot, milk, butter, and Kraft mac n cheese box.</li>
+                            <li>Pour 8 cups of water into pot and boil.</li>
+                            <li>Add macaroni to pot and cook for 7-8 minutes.</li>
+                            <li>Take pot off heat and drain water from pot.</li>
+                            <li>Add cheese power, 1/4 cup of milk, and 2 tbsp of butter to macaroni.</li>
+                            <li>Stir <em>thoroughly</em> and Enjoy!</li>
+                        </ol>
+                        <hr>
+                    </div>
+            </section>
+        </aside>
+        <main>
+            <section id="Experience">
+                <h4>My Computer Science/Coding Experience</h4>
+                <table>
+                    <caption>Level of Language Experience</caption>
+                    <colgroup>
+                        <col span="1" class="language">
+                        <col span="1" class="level">
+                    </colgroup>
+                    <tr>
+                        <th>Language</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Highest</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>Proficient</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>Almost Proficient</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Above Basic</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Basic</td>
+                    </tr>
+                    <tr>
+                        <td>JS</td>
+                        <td>Basic</td>
+                    </tr>
+                    <tr>
+                        <td>Verilog</td>
+                        <td>Basic</td>
+                    </tr>
+                </table>
+                <hr>
+            </section>
+            
+            <section id="Survey">
+                <h4>Survey for Self-Improvement</h4>
+                <form action="">
+                    <div class="email_input">
+                        <label for="email">Enter your email: </label>
+                        <input type="text" name="email" id="email" required><br>
+                    </div>
+                    <br>
+                    <label for="rating">Rate me from 1-10:</label>
+                    <select name="rating_input" id="rating">
+                        <optgroup id="numbers">
+
+                            <option value="">--Click for dropdown--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            
+                        </optgroup>
+                    </select>
+                    <br><br>
+
+                    <label for="color_choice">What is your favorite color?</label>
+                    <input list="colors" id="color_choice" name="color_choice"/>
+                    <datalist id="colors">
+                        <option value="Red">
+                        <option value="Orange">
+                        <option value="Yellow">
+                        <option value="Green">
+                        <option value="Blue">
+                        <option value="Indigo">
+                        <option value="Violet">
+                    </datalist><br>
+                    <br>
+                    <fieldset>
+                        <legend>Would you hire me?</legend>
+
+                        <input type="radio" id="No" name="answer">
+                        <label for="No">No</label><br>
+
+                        <input type="radio" id="Yes" name="answer">
+                        <label for="Yes">Yes</label><br>
+
+                    </fieldset>
+                    <br>
+                    <div class="feedback">
+                        <label for="feedback">Please let me know what to improve: </label><br>
+                        <textarea name="feedback" id="feedback" cols="30" rows="6">
+                            You should...
+                        </textarea>
+                        <br>
+                        <button class="favorite styled" type="button">Submit</button>
+                    </div>
+                </form>
+                <hr>
+            </section>
+        </main>
+        <aside>
+            <section id="Random">
+                <video controls width="500" height="500">
+                    <source src="this_guy_stinks.mp4" type="video/mp4">
+                </video>
+
+                <audio controls src="this_guy_stinks - Copy.mp3"></audio>
+
+                <p>vv canvas tag vv</p>
+                <canvas width="250" height="250">
+                    <script>
+                        const canvas = document.querySelector('canvas');
+                        const ctx = canvas.getContext('2d');
+                        ctx.fillStyle = 'blue';
+                        ctx.fillRect(0,0,250,250);
+                    </script>
+                </canvas>
+
+                <p>vv svg tag vv</p>
+                <svg viewBox="0 0 10 10" x="200" width="100" xmlns="http://www.w3.org/2000/svg" stroke = "red" fill="green">
+                    <circle cx="5" cy="5" r="4"></circle>
+                </svg>
+            </section>
+            
+            <section id="template_example">
+                <div id="empty_div">
+
+                </div>
+
+                <template id="template">
+                    <div><strong>Click this text</strong></div>
+                </template>
+
+                <script>
+                    const template = document.getElementById("template");
+                    const container = document.getElementById("empty_div");
+
+                    function clickHandler(event) {
+                        alert("Clicked the text");
+                    }
+
+                    const text = template.content.cloneNode(true);
+                    text.addEventListener("click", clickHandler);
+                    
+                    const text2 = template.content.firstElementChild.cloneNode(true);
+                    text2.addEventListener("click", clickHandler);
+                    container.appendChild(text2);
+
+                </script>
+            </section>
+            <br>
+            <section id="disclosure">
+                <details>
+                    <summary>
+                        Answer this: What is 2+2?
+                    </summary>
+                    Fish.
+                </details>
+            </section>
+
+            <section id="input_types">
+                <h3>8 more input types: (I already used text and radar)</h3>
+                <label for="cool_color">Look at the colors....</label>
+                <input type="color" id="cool_color" name="cool_color" value="#add8e6">
+                <br>
+                <label for="today"> I finished this on:</label>
+                <input type="date" id="today" name="today" value="2021-01-12" min="2018-01-01" max="2021-12-31">
+                <br>
+                <label for="pic">Upload a pic:</label>
+                <input type="file" id="cool_pic" name="cool_pic" accept="image/png, image/jpeg">
+                <br>
+                <label for="pets">How many pets do you have?</label>
+                <input type="number" id="pets" name="pets" min="0" max="30">
+                <br>
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" name="volume" min="0" max="100">
+                <br>
+                <input type="submit" value="Button using input tag">
+                <br>
+                <label for="timezone">What time is it for you?</label>
+                <input type="time" id="timezone" name="timezone" min="0:00" max="23:59">
+                <br>
+                <label for="passcode">Enter your password:</label>
+                <input type="password" id="passcode" name="password" minlength="8">
+                <br>
+            </section>
+        </aside>
+
+        <footer>
+            <p>Contact me at: <b>l2obrien@ucsd.edu</b></p>
+            <pre>                   
+                            .----.
+                .---------. | == |
+                |.-"""""-.| |----|
+                ||       || | == |
+                ||       || |----|
+                |'-.....-'| |::::|
+                `"")---(""` |___.|
+               /:::::::::::\" _  "
+              /:::=======:::\`\`\
+              `"""""""""""""`  '-'</pre>
+        </footer>
+    </body>
+</html>
