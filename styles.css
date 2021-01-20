@@ -20,6 +20,7 @@ img {
     padding-right: 0%;
     height:500px;
     width:500px;
+    display: block;
 }
 
 /* top right bottom left */
@@ -28,12 +29,25 @@ video{
     padding: 3px 5px 5px 0px;
 }
 
+iframe {
+    margin: 0cm 0cm 0cm 2.5cm;
+}
+
+h3 {
+    display:inline;
+    padding: 0in 1in 0in 1in;
+}
+
 #About {
     color:#8a2be2;
     border-style:dashed;
     border-color:aqua;
     border-width:7px;
     border-radius:50px;
+}
+
+li {
+    display: inline;
 }
 
 h4 {
