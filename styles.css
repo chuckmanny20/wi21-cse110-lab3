@@ -103,3 +103,9 @@ input {
 footer {
     background-color: #58b3c5;
 }
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color:antiquewhite;
+    }
+}
