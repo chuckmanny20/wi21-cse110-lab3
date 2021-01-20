@@ -1,2 +1,22 @@
 /* Liam O'Brien's Lab 3 Styles Sheet */
 
+/* navigation links */
+a {
+    color:black;
+}
+
+#About {
+    color:#8a2be2;
+}
+
+#Recipe {
+    color:#A71; 
+}
+
+#Experience {
+    color:hsl(1, 100%, 50%);
+}
+
+#Survey {
+    color:hsla(99, 43%, 46%, 0.753);
+}
