@@ -1,5 +1,9 @@
 /* Liam O'Brien's Lab 3 Styles Sheet */
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* navigation links */
 a {
     color:black;
