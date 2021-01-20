@@ -13,6 +13,14 @@ a, p {
     color:black;
 }
 
+a:hover {
+    color:orangered;
+}
+
+a:active {
+    color:plum;
+}
+
 img {
     margin-top: 2%;
     margin-bottom: 3%;
