@@ -5,6 +5,25 @@ a {
     color:black;
 }
 
+img {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
+    height:500px;
+    width:500px;
+}
+
+/* top right bottom left */
+video{
+    margin: 5px 20px 0px 30px;
+    padding: 3px 5px 5px 0px;
+}
+
 #About {
     color:#8a2be2;
     border-style:dashed;
@@ -19,6 +38,8 @@ a {
 
 #Experience {
     color:hsl(1, 100%, 50%);
+    width:500px;
+    margin:auto;
 }
 
 #Survey {
