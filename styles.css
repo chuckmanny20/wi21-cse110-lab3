@@ -23,6 +23,11 @@ img {
     display: block;
 }
 
+div.elrecipe {
+    max-width: 60vmin;
+    min-width: 30vmin;
+}
+
 /* top right bottom left */
 video{
     margin: 5px 20px 0px 30px;
@@ -38,6 +43,11 @@ h3 {
     padding: 0in 1in 0in 1in;
 }
 
+.inputs {
+    display:block;
+    padding: 0mm 0mm 0mm 0mm;
+}
+
 #About {
     color:#8a2be2;
     border-style:dashed;
@@ -46,7 +56,7 @@ h3 {
     border-radius:50px;
 }
 
-li {
+ul > li {
     display: inline;
 }
 
