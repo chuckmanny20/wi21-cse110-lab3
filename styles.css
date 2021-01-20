@@ -32,6 +32,12 @@ video{
     border-radius:50px;
 }
 
+h4 {
+    color:#660066;
+    text-decoration: underline;
+    text-align:center;
+}
+
 #Recipe {
     color:#A71; 
 }
@@ -44,6 +50,10 @@ video{
 
 #Survey {
     color:hsla(99, 43%, 46%, 0.753);
+}
+
+input {
+    text-align:center;
 }
 
 footer {
