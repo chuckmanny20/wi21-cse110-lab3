@@ -7,6 +7,10 @@ a {
 
 #About {
     color:#8a2be2;
+    border-style:dashed;
+    border-color:aqua;
+    border-width:7px;
+    border-radius:50px;
 }
 
 #Recipe {
