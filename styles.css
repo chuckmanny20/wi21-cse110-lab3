@@ -92,12 +92,39 @@ table td {
     margin:auto;
 }
 
+col[span="1"] {
+    background-color:beige;
+}
+
 #Survey {
     color:hsla(99, 43%, 46%, 0.753);
 }
 
 input {
     text-align:center;
+}
+
+#input_types {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:baseline;
+    height: 400px;
+    width: 425px;
+}
+
+#input_types label, #input_types input {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin:auto;
+}
+
+input[type="color"] {
+    flex-basis: 150px;
+}
+
+input[type="number"] {
+    flex-basis: 150px;
 }
 
 footer {
