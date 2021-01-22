@@ -1,6 +1,7 @@
 # Standup Notes
 
 Name:
+
 Date:
 
 ## What did you finish yesterday?
