@@ -21,6 +21,7 @@ a:active {
     color:plum;
 }
 
+/* 2 relative units */
 img {
     margin-top: 2%;
     margin-bottom: 3%;
@@ -35,6 +36,7 @@ img {
     display: block;
 }
 
+/* combining 2 selectors */
 div.elrecipe {
     max-width: 60vmin;
     min-width: 30vmin;
@@ -46,6 +48,7 @@ video{
     padding: 3px 5px 5px 0px;
 }
 
+/* 3 absolute units (and pixels) */
 iframe {
     margin: 0cm 0cm 0cm 2.5cm;
 }
@@ -153,6 +156,7 @@ input {
     width: 425px;
 }
 
+/* 3rd relative unit */
 #input_types label, #input_types input {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -165,6 +169,16 @@ input[type="color"] {
 
 input[type="number"] {
     flex-basis: 150px;
+}
+
+/* adjacent sibling selector */
+div.last_selector1 + p {
+    background-color:khaki;
+}
+
+/* general sibling selector */
+div.last_selector2 ~ p {
+    background-color: maroon;
 }
 
 footer {
